@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Oldagram</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="split">
+                <img src="images/logo.png" class="logo" alt="logo">
+                <img src="images/user-avatar.jpg" class="user-img" alt="user avatar">
+            </div>
+        </header>
+        <main>
+            <article>
+                <div class="flex-start">
+                    <div class="avatar"><img src="images/avatar-vangogh.jpg" class="user-img"   alt="Vicent Van Gogh">
+                    </div>
+                    <div class="user-details">
+                        <p class="user-name">Vincent Van Gogh</p>
+                        <p class="user-location">Zudert, Netherlands</p>
+                    </div>
+                </div>
+                
+                <div class="post">
+                    <img src="images/post-vangogh.jpg" class="post-img" alt="">
+                </div>
+                
+                <div class="icons-box">
+                    <button id="likeBtn" role="button" aria-label="like button"><img src="images/icon-heart.png" class="icon" id="likeIcon" alt=""></button>
+                    <button id="commentBtn" role="button" aria-label="comment button"><img src="images/icon-comment.png" class="icon" alt=""></button>
+                    <button id="DMBtn" role="button" aria-label="direct message button"><img src="images/icon-dm.png" class="icon" alt=""></button>
+                </div>
+                
+                <p class="likes">21,492 likes</p>
+                <p class="comments"><span class="user-name">vincey1853</span> just took a few mushrooms lol</p>
+            </article>
+        </main>  
+    </div>
+    <script src="index.js"></script>
+</body>
+    </html>
